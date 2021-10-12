@@ -1,3 +1,3 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
 site_title: Just another Ruby porter,
 permalink: /:year-:month-:day-:title:output_ext
