@@ -1,4 +1,9 @@
 #theme: jekyll-theme-cayman
 name: Just another Ruby porter,
 title: Just another Ruby porter,
-permalink: /xblog/:year-:month-:day-:title:output_ext
+defaults:
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      permalink: /xblog/:year-:month-:day-:title:output_ext
