@@ -8,6 +8,8 @@
   {% endfor %}
 </ul>
 
+<hr>
+
 <!-- SiteSearch Google -->
 <form method=GET action="https://www.google.co.jp/search">
 <p>
