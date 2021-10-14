@@ -1,6 +1,7 @@
 #theme: jekyll-theme-cayman
 name: Just another Ruby porter,
 title: Just another Ruby porter,
+timezone: Asia/Tokyo
 markdown: GFM
 defaults:
   - scope:
