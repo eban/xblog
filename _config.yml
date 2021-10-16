@@ -2,7 +2,10 @@
 name: Just another Ruby porter,
 title: Just another Ruby porter,
 timezone: Asia/Tokyo
-markdown: GFM
+#markdown: GFM
+kramdown:
+  gfm_quirks: true
+  hard_wrap: true
 baseurl: /xblog
 defaults:
   - scope:
