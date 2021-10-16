@@ -3,7 +3,6 @@ name: Just another Ruby porter,
 title: Just another Ruby porter,
 timezone: Asia/Tokyo
 markdown: GFM
-baseurl: htts://eban.github.io/xblog/
 defaults:
   - scope:
       path: _posts
