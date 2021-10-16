@@ -3,6 +3,7 @@ name: Just another Ruby porter,
 title: Just another Ruby porter,
 timezone: Asia/Tokyo
 markdown: GFM
+baseurl: /xblog
 defaults:
   - scope:
       path: _posts
