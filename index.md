@@ -21,4 +21,5 @@
 <input type=hidden name=domains value="jarp.does.notwork.org"><br>
 <input type=radio name=sitesearch value=""> WWW を検索
 <input type=radio name=sitesearch value="jarp.does.notwork.org" checked> jarp.does.notwork.org を検索 <br>
+</p>
 </form>
