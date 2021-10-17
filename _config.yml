@@ -7,7 +7,7 @@ paginate_path: /page:num/
 theme: minima
 timezone: Asia/Tokyo
 baseurl: /xblog
-url: https://eban.github.io/xblog
+#url: https://eban.github.io/xblog
 plugins:
   - jekyll-feed
 feed:
