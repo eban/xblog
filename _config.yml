@@ -13,4 +13,4 @@ defaults:
       path: _posts
       type: posts
     values:
-      permalink: /:year-:month-:day-:title:output_ext
+      permalink: /:year-:month-:day-:title/
