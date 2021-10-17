@@ -1,6 +1,7 @@
 #theme: jekyll-theme-cayman
 name: Just another Ruby porter,
 title: Just another Ruby porter,
+lang: ja
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Tokyo
