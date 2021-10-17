@@ -1,18 +1,20 @@
 #theme: jekyll-theme-cayman
 name: Just another Ruby porter,
 title: Just another Ruby porter,
+paginate: 10 # amount of posts to show
+paginate_path: /page:num/
 timezone: Asia/Tokyo
+baseurl: /xblog
+
 markdown: kramdown
 kramdown:
   input: GFM
   #gfm_quirks: true
   hard_wrap: true
-baseurl: /xblog
+
 defaults:
   - scope:
       path: _posts
       type: posts
     values:
       permalink: /:year-:month-:day-:title/
-paginate     : 10 # amount of posts to show
-paginate_path: /page:num/
