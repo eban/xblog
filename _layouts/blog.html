@@ -1,5 +1,10 @@
+---
+layout: default
+---
+<h2><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></h2>
+<p>{{ page.date | date: "%F %T %z (%a)" }}</p>
+
 {{ content }}
-<hr/>
 <div class="PageNavigation">
   {% if page.previous.url %}
     <a class="prev" href="{{ page.previous.url | relative_url}}">&laquo; {{ page.previous.title }}</a>
@@ -11,4 +16,10 @@
     <a class="next" href="{{ page.next.url | relative_url}}">{{ page.next.title }} &raquo;</a>
   {% endif %}
 </div>
-{% include foot.html %}
+
+<hr/>
+
+<p>
+<address><a href="&#109;&#x61;&#x69;&#108;&#116;&#111;&#x3A;&#101;&#98;&#x61;&#110;&#64;&#x6F;&#x73;&#x2E;&#x72;&#105;&#109;&#46;&#x6F;&#x72;&#x2E;&#106;&#x70;">わたなべひろふみ</a><br>
+</address>
+</p>
