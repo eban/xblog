@@ -6,7 +6,7 @@ paginate_path: /page:num/
 timezone: Asia/Tokyo
 baseurl: /xblog
 feed:
-  path: index.rdf
+  path: feed.xml
 
 markdown: kramdown
 kramdown:
