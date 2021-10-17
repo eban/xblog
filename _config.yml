@@ -6,6 +6,7 @@ paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Tokyo
 baseurl: /xblog
+url: https://eban.github.io/xblog
 plugins:
   - jekyll-feed
 feed:
