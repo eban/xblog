@@ -5,7 +5,6 @@ layout: default
 <p>{{ page.date | date: "%F %T %z (%a)" }}</p>
 
 {{ content }}
-<hr/>
 <div class="PageNavigation">
   {% if page.previous.url %}
     <a class="prev" href="{{ page.previous.url | relative_url}}">&laquo; {{ page.previous.title }}</a>
@@ -18,8 +17,9 @@ layout: default
   {% endif %}
 </div>
 
+<hr/>
+
 <p>
 <address><a href="&#109;&#x61;&#x69;&#108;&#116;&#111;&#x3A;&#101;&#98;&#x61;&#110;&#64;&#x6F;&#x73;&#x2E;&#x72;&#105;&#109;&#46;&#x6F;&#x72;&#x2E;&#106;&#x70;">わたなべひろふみ</a><br>
-Key fingerprint = C456 1350 085F A320 C6C8  8A36 0F15 9B2E EB12 3885<br>
 </address>
 </p>
