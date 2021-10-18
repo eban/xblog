@@ -3,10 +3,10 @@ name: わたなべひろふみ
 title: Just another Ruby porter,
 lang: ja
 show_excerpts: true
-#theme: jekyll-theme-primer
-theme: minima
-minima:
-  date_format: "%F %T %z (%a)"  
+theme: jekyll-theme-primer
+#theme: minima
+#minima:
+#  date_format: "%F %T %z (%a)"  
 timezone: Asia/Tokyo
 baseurl: /xblog
 #url: https://eban.github.io/xblog

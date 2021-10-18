@@ -4,13 +4,13 @@
     <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
     {{ post.excerpt }}
     &nbsp;
-    <small><div class="float-right">{{ post.date | date: "%F %T %z (%a)" }}</div></small>
+    <div class="f6"><div class="float-right">{{ post.date | date: "%F %T %z (%a)" }}</div></div>
     <hr/>
   </li>
   {% endfor %}
 </ul>
 
-<a href="/xblog/feed.xml">RSS</a>
+<p class="rss-subscribe">subscribe <a href="/xblog/feed.xml">via RSS</a></p>
 
 <!-- SiteSearch Google -->
 <form method=GET action="https://www.google.co.jp/search">
