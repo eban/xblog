@@ -3,6 +3,7 @@ name: わたなべひろふみ
 title: Just another Ruby porter,
 lang: ja
 show_excerpts: true
+google_analytics: true
 #theme: jekyll-theme-primer
 #theme: minima
 #minima:
