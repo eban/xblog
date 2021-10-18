@@ -5,7 +5,9 @@
       {{ post.title }}
     </a>
     <span> {{ post.date | date: "%F %T %z (%a)" }} </span> 
+    <p>
     {{ post.excerpt }}
+    </p>
   </li>
   {% endfor %}
 </ul>
