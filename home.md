@@ -4,9 +4,9 @@
 <h2><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></h2>
 <p><h5>{{ page.date | date: "%F %T %z (%a)" }}</h5></p>
     <!-- <span> {{ post.date | date: "%F %T %z (%a)" }} </span> -->
-    <!-- <a href="{{ post.url | relative_url }}">-->
+    <!-- <a href="{{ post.url | relative_url }}"> -->
       {{ post.title }}
-    </a>
+    <!-- </a> -->
     {{ post.excerpt }}
   </li>
   {% endfor %}
