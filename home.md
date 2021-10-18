@@ -4,7 +4,7 @@
     <a href="{{ post.url | relative_url }}">
       {{ post.title }}
     </a>
-    <h5> {{ post.date | date: "%F %T %z (%a)" }} </h5> 
+    <span> {{ post.date | date: "%F %T %z (%a)" }} </span> 
     {{ post.excerpt }}
   </li>
   {% endfor %}
