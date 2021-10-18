@@ -2,8 +2,9 @@
   {% for post in site.posts limit:10 %}
   <li>
     <a href="{{ post.url | relative_url }}">
-      <span> {{ post.date | date: "%F %T %z" }} </span> {{ post.title }}
+      {{ post.title }}
     </a>
+    <h5> {{ post.date | date: "%F %T %z (%a)" }} </h5> 
     {{ post.excerpt }}
   </li>
   {% endfor %}
