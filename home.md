@@ -1,12 +1,12 @@
 <ul>
   {% for post in site.posts limit:10 %}
   <li>
-<a href="{{ post.url | absolute_url }}">{{ page.title }}</a>
+<a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
 <p><h5>{{ post.date | date: "%F %T %z (%a)" }}</h5></p>
-    <!-- <span> {{ post.date | date: "%F %T %z (%a)" }} </span> -->
-    <!-- <a href="{{ post.url | relative_url }}"> -->
+    <!-- <span> {{ post.date | date: "%F %T %z (%a)" }} </span>
+    <a href="{{ post.url | relative_url }}">
       {{ post.title }}
-    <!-- </a> -->
+    </a> -->
     {{ post.excerpt }}
   </li>
   {% endfor %}
