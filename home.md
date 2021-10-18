@@ -3,7 +3,7 @@
   <li>
     <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
     {{ post.excerpt }}
-    .
+    &nbsp;
     <small><div class="float-right">{{ post.date | date: "%F %T %z (%a)" }}</div></small>
     <hr/>
   </li>
