@@ -3,8 +3,7 @@ name: わたなべひろふみ
 title: Just another Ruby porter,
 lang: ja
 show_excerpts: true
-#theme: jekyll-theme-primer
-theme: jekyll-theme-tactile
+theme: jekyll-theme-primer
 #theme: minima
 #minima:
 #  date_format: "%F %T %z (%a)"  
