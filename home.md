@@ -1,9 +1,9 @@
 <div>
-  {% for post in site.posts limit:10 %}
-    <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
+  {% for page in site.posts limit:10 %}
+    <h2><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></h2>
+    {{ page.excerpt }}
     &nbsp;
-    <div class="f6"><div class="float-right">{{ post.date | date: "%F %T %z (%a)" }}</div></div>
+    <div class="f6"><div class="float-right">{{ page.date | date: "%F %T %z (%a)" }}</div></div>
     <hr/>
   {% endfor %}
 </div>
