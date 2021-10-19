@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
+<div>
 <h2><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></h2>
-
-{{ content }}
-    &nbsp;
-    <small><div class="float-right">{{ page.date | date: "%F %T %z (%a)" }}</div></small>
-<div class="PageNavigation">
+  {{ content }}
+  &nbsp;
+  <div class="f6"><div class="float-right">{{ post.date | date: "%F %T %z (%a)" }}</div></div>
+  <div class="PageNavigation">
   {% if page.previous.url %}
     <a class="prev" href="{{ page.previous.url | relative_url}}">&laquo; {{ page.previous.title }}</a>
   {% endif %}
