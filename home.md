@@ -1,14 +1,14 @@
-<ul>
+<!-- <ul> -->
   {% for post in site.posts limit:10 %}
-  <li>
-    <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+<!--  <li> -->
+    <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
     &nbsp;
     <div class="f6"><div class="float-right">{{ post.date | date: "%F %T %z (%a)" }}</div></div>
     <hr/>
-  </li>
+<!--  </li> -->
   {% endfor %}
-</ul>
+<!--</ul> -->
 
 <p class="rss-subscribe">subscribe <a href="/xblog/feed.xml">via RSS</a></p>
 
