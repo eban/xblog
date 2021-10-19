@@ -8,7 +8,7 @@
   {% endfor %}
 </div>
 
-<p class="rss-subscribe">subscribe <a href="/xblog/feed.xml">via RSS</a></p>
+<p class="rss-subscribe">subscribe <a href="/xblog/feed.xml">via ATOM</a></p>
 
 <!-- SiteSearch Google -->
 <form method=GET action="https://www.google.co.jp/search">
