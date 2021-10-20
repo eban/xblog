@@ -34,4 +34,14 @@ defaults:
       type: posts
     values:
       permalink: /:year-:month-:day-:title/
+
+exclude:
+  - .git
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
+  - _config.yml
+  - _layouts
+  - params.json
+  - vendor
 # vi: set sw=2:
