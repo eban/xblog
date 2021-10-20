@@ -5,9 +5,9 @@ lang: ja
 show_excerpts: true
 google_analytics: true
 #theme: jekyll-theme-primer
-#theme: minima
-#minima:
-#  date_format: "%F %T %z (%a)"  
+theme: minima
+minima:
+  date_format: "%F %T %z (%a)"  
 timezone: Asia/Tokyo
 baseurl: /xblog
 #url: https://eban.github.io/xblog
