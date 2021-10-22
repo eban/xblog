@@ -14,6 +14,7 @@ baseurl: /xblog
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-twitter-plugin
 
 limit_posts: 10
 paginate: 10 # amount of posts to show
